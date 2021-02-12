@@ -49,6 +49,11 @@ let g:airline#extensions#tabline#buffer_nr_show = 1
 autocmd FileType c,cpp,java,php,elixir,javascript,ruby,python autocmd BufWritePre <buffer> %s/\s\+$//e
 
 
+" External dependencies
+" - fzf
+" - ripgrep
+
+
 " Left sidebar for directory navigation 
 noremap <C-n> :NERDTreeToggle<CR>
 " Fuzzy find file name
