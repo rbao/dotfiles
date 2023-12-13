@@ -117,3 +117,9 @@ export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+export TIMEFMT=$'real\t%E\nuser\t%U\nsys\t%S'
+
+if [[ -f ~/.zshrc1.zsh ]]; then
+    source ~/.zshrc1.zsh
+fi
