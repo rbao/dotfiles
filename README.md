@@ -1,2 +1,1 @@
-`find . -maxdepth 1 -name ".*" -exec ln -s {} ~/ \;`
-
+`find "$(pwd)" -maxdepth 1 -type f -name ".*" -exec ln -sf {} ~/ \;`
